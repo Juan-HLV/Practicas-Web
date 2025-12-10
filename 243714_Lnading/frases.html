@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frases Gatunas - Gatopedia</title>
+  <link rel="stylesheet" href="styles/frases.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <header>
+    <h2>Generador de Frases Gatunas</h2>
+    <a href="index.html" class="btn volver">← Volver a Gatopedia</a>
+  </header>
+
+  <main>
+    <div class="instructions">Escribe una frase</div>
+    <input type="text" id="frase" class="input-frase" placeholder="Miau" maxlength="100" />
+    <button id="generar" class="btn-frases">😺 Generar gatito con mi frase</button>
+    <div id="contenedor" class="contenedor-imagen">
+      <div class="empty-state">
+        <div class="paw-icon">🐾</div>
+        <p>Tu gatito con frase aparecerá aquí</p>
+        <p style="font-size: 0.9rem; margin-top: 0.5rem;">¡Escribe algo y haz clic en generar!</p>
+      </div>
+    </div>
+  </main>
+<script src="JS/FRASES.JS"></script>
+</body>
+</html>
